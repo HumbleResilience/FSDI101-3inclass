@@ -1,0 +1,101 @@
+*{
+    margin: 32;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(182, 192, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+header{
+  
+    position: relative;
+    margin: 0;
+    background-color: #24252A;
+    box-sizing: border-box;
+    display: flex;  /*Puts them side by side*/
+    justify-content: space-between; /*space in between*/ 
+    padding: 30px 10%;
+}
+
+.logo{
+    color:white;
+    margin-left: -50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color:aquamarine;
+}
+
+nav, a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top:auto;
+    transition: all 0.3s ease 0s;     
+}
+nav, a:hover{
+    color:aquamarine;
+}
+
+.subtitle{
+    text-align:center;
+    margin:30px;
+    font-weight: 300;
+}
+
+.menu{
+    color: white;
+    text-decoration: none;
+    text-shadow:  2px 2px black;
+    margin-right: 20px;
+}
+
+p{
+    line-height: 2;
+    font-size: 16px;
+    margin: 20px;
+}
+
+ul, ol{
+    margin-left:50px;
+}
+
+ul.projects{  /*unordered list of project class*/
+    background-color: gray;
+    padding: 20px;
+}
+
+ul li{
+    background-color:aquamarine;
+    margin: 5px;
+    padding: 5px;
+}
+
+ol{
+ background-color: blue;
+ padding: 20px;
+ margin:5 px;
+ 
+}
+
+ol li{
+    
+    background-color: gray;
+    margin: 5px;
+    padding: 5px;
+    color:white;
+}
+
+
+footer{
+    background-color: #24252A;
+    text-align:center;
+    color:white;
+
+}
